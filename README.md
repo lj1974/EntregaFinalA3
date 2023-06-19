@@ -10,41 +10,47 @@ O tutorial descrito abaixo irá te direcionar na instalação de todas as tecnol
 Clonar Repositório:
 
 ```
-git clone
-
-https://github.com/lj1974/EntregaFinalA3.git
-
+git clone https://github.com/lj1974/EntregaFinalA3.git
 ```
 
 Após copiar, dividiremos a instalação a fim de que não ocorram problemas indesejados:
 
-```
+
 Front-end:
 Esse caminho abaixo, vai abrir a pasta onde está o sistema web no terminal
-cd frontend-devMovies-master
-
-Após utilizar o comando acima, ainda no terminal, digite o próximo comando, para instalar todos os pacotes, bibliotecas, e frameworks já contidas no sistema
-		npm i
 
 ```
-Back-end
+	cd frontend-devMovies-master
+```
+Após utilizar o comando acima, ainda no terminal, digite o próximo comando, para instalar todos os pacotes, bibliotecas, e frameworks já contidas no sistema
+```
+	npm i
+```
+
+
+Back-end:
 
 Siga o mesmo comando anterior, para entrar no repositório desejado
-		cd backend-Devmovies
-
+```
+	cd backend-Devmovies
+```
 Após entrar no repositório desejado, entrar com o comando de instalação de dependências e bibliotecas
-		npm i
+```
+	npm i
+```
 Em sequência, use o comando abaixo para a instalação da ORM prisma
-npx prisma migrate validate
-
+```
+	npx prisma migrate validate
+```
 
 Finalizando ambas instalações, o último comando a ser feito é o
-npm run dev
-
+```
+	npm run dev
+```
 
 A partir daqui é só correr pro abraço!
 
-```
+
 
 ## Framework e Bibliotecas utilizadas 🚀🚀
 
@@ -63,9 +69,9 @@ Back-end :  SQLite, Prisma, Node, Router, Express, Crypto, Cors, Nodemon
 
 
 
-```
+
 É, não foi fácil.
 O processo de desenvolvimento desse pequeno projeto se mostrou mais desafiador do que imaginávamos, conseguimos fazer algumas coisas que julgávamos que seriam muito difíceis, como por exemplo trabalhando com o back-end, e lutando pela integração com o front. Já outras, onde achávamos que seriam simples, como questões bobas de responsividade, algumas brigas serias com formularios e bancos de dados, 
 
-```
+
 
