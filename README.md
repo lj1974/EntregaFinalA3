@@ -10,7 +10,7 @@ O tutorial descrito abaixo irá te direcionar na instalação de todas as tecnol
 Clonar Repositório:
 
 ```
-git clone https://github.com/lj1974/EntregaFinalA3.git
+	git clone https://github.com/lj1974/EntregaFinalA3.git
 ```
 
 Após copiar, dividiremos a instalação a fim de que não ocorram problemas indesejados:
@@ -67,11 +67,17 @@ Back-end :  SQLite, Prisma, Node, Router, Express, Crypto, Cors, Nodemon
 * [Node](https://nodejs.org/en)
 
 
+## Conclusão
+
+
+É. Não foi fácil.
+O processo de desenvolvimento desse pequeno projeto se mostrou mais desafiador do que imaginávamos, conseguimos fazer algumas coisas que julgávamos que seriam muito difíceis, como por exemplo trabalhando com o back-end, e lutando pela integração com o front, ou, trabalhar com o banco de dados. Já outras, onde achávamos que seriam simples, como questões bobas de responsividade, algumas brigas sérias com formulários, nos tiraram do sério, nos fizeram gastar tempo, muito tempo. No fim, estamos aqui, nos minutos finais, ainda mexendo em vários detalhes do código, mas, a briga foi boa na realidade, teve muito aprendizado, ansiedade, alguns pequenos conflitos, mas, é o que é, saiu o nosso projeto, nem completo nem perfeito, mas o nosso projeto. Talvez até o último dessa jornada da graduação, caso dê tudo certo, e esperamos que sim, todos os componentes dessa equipe, estarão formados, e essa briga partirá para outro viés.
 
 
 
-É, não foi fácil.
-O processo de desenvolvimento desse pequeno projeto se mostrou mais desafiador do que imaginávamos, conseguimos fazer algumas coisas que julgávamos que seriam muito difíceis, como por exemplo trabalhando com o back-end, e lutando pela integração com o front. Já outras, onde achávamos que seriam simples, como questões bobas de responsividade, algumas brigas serias com formularios e bancos de dados, 
+
+...
+
 
 
 
