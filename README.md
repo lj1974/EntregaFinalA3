@@ -1,6 +1,6 @@
 # DevMovies
 
- Aplicação referente à avaliação (3) da matéria de ‘Usabilidade, Desenvolvimento web, Mobile e jogos’. É um sistema web, que tem como finalidade de criar um catálogo de filmes e séries, podendo criar dentro da aplicação, uma categorização (gostei, não gostei, assistido, não assistido), permitindo com o seu uso, uma maior organização do conteúdo de entretenimento do seu usuário. A aplicação tem dois usos distintos, "gerência", e “usuário”, com funções ligeiramente diferentes. A parte referente a gerência tem a competência de adicionar/remover filmes ao catálogo, já para o  “usuário” fica o resto do uso, onde ele irá salvar os filmes que deseja em sua lista, curti-los, descurti-los, ou ainda se desejar, marcar os filmes que já assistiu, e apontar aqueles que ainda estão na sua lista de espera.
+ Aplicação referente à avaliação (A3) da matéria de ‘Usabilidade, Desenvolvimento web, Mobile e jogos’. É um sistema web, que tem como finalidade de criar um catálogo de filmes e séries, podendo criar dentro da aplicação, uma categorização (gostei, não gostei, assistido, não assistido), permitindo com o seu uso, uma maior organização do conteúdo de entretenimento do seu usuário. A aplicação tem dois usos distintos, "gerência", e “usuário”, com funções ligeiramente diferentes. A parte referente a gerência tem a competência de adicionar/remover filmes ao catálogo, já para o  “usuário” fica o resto do uso, onde ele irá salvar os filmes que deseja em sua lista, curti-los, descurti-los, ou ainda se desejar, marcar os filmes que já assistiu, e apontar aqueles que ainda estão na sua lista de espera.
 
 
 ### 🔧 Instalação
@@ -12,7 +12,7 @@ Clonar Repositório:
 ```
 git clone
 
-
+https://github.com/lj1974/EntregaFinalA3.git
 
 ```
 
