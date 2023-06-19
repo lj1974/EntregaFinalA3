@@ -36,7 +36,6 @@ Finalizando ambas instalações, o último comando a ser feito é o
 	npm start
 ```
 
-
 Front-end:
 Esse caminho abaixo, vai abrir a pasta onde está o sistema web no terminal
 
@@ -55,7 +54,14 @@ E por fim para dar start no front-end
 
 A partir daqui é só correr pro abraço!
 
+Você pode criar sua conta e fazer login. Mas para acessar seu login como Adm:
+Navegue até a página do back-end, insira o comando
 
+```
+	npx prisma studio
+```
+
+Após isso, irá abrir a página do prisma no seu navegador. Na página do prisma, o usuário irá navegar até a parte “User” no prisma-studio, chegando em Role A, altere para “ADM”. Como o código está com algumas pendencias, no header não aparece a parte referente a  ‘gerencia’, então é necessário ir até a url, e colocar manualmente “\admin” para acessa-la.
 
 ## Framework e Bibliotecas utilizadas 🚀🚀
 
