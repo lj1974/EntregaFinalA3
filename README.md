@@ -16,21 +16,9 @@ Clonar Repositório:
 Após copiar, dividiremos a instalação a fim de que não ocorram problemas indesejados:
 
 
-Front-end:
-Esse caminho abaixo, vai abrir a pasta onde está o sistema web no terminal
-
-```
-	cd frontend-devMovies-master
-```
-Após utilizar o comando acima, ainda no terminal, digite o próximo comando, para instalar todos os pacotes, bibliotecas, e frameworks já contidas no sistema
-```
-	npm i
-```
-
-
 Back-end:
 
-Siga o mesmo comando anterior, para entrar no repositório desejado
+Esse caminho abaixo, vai abrir a pasta onde está o backend no terminal
 ```
 	cd backend-Devmovies
 ```
@@ -44,6 +32,23 @@ Em sequência, use o comando abaixo para a instalação da ORM prisma
 ```
 
 Finalizando ambas instalações, o último comando a ser feito é o
+```
+	npm start
+```
+
+
+Front-end:
+Esse caminho abaixo, vai abrir a pasta onde está o sistema web no terminal
+
+```
+	cd frontend-devMovies-master
+```
+Após utilizar o comando acima, ainda no terminal, digite o próximo comando, para instalar todos os pacotes, bibliotecas, e frameworks já contidas no sistema
+```
+	npm i
+```
+
+E por fim para dar start no front-end
 ```
 	npm run dev
 ```
