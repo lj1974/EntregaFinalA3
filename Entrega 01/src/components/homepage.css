@@ -1,0 +1,296 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: var(--black-600);
+}
+
+:root {
+  --white: #FFFFFF;
+  --white-800: #F6F8FF;
+
+  --blue-400: #016FB9;
+  --blue-700: #016FB97D;
+  --blue-900: #001242;
+
+  --black-600: #191919;
+  --black-900: #000000;
+}
+
+body,
+input,
+textarea,
+select,
+button {
+  font: 400 1rem 'Montserrat', sans-serif;
+}
+
+.mainContent {
+  width: 100%;
+  height: calc(100vh - 11rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.leftLogin {
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+}
+
+.mainContent {
+  height: calc(100vh -11rem);
+}
+
+.rightLogin {
+  position: absolute;
+  top: 150px;
+  right: 0px;
+
+}
+
+.headerContext {
+  height: 6rem;
+}
+
+.headerBox {
+  max-width: 1220px;
+  height: 100%;
+  margin: 0 auto;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.headerBox h2 {
+  font-size: 36px;
+}
+
+.contentExplication {
+  background: var(--blue-700);
+  height: 250px;
+  display: flex;
+  padding: 0 30px;
+  align-items: center;
+  gap: 10%;
+  width: 90%;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.contentExplication p {
+  width: 70%;
+  font-size: 18px;
+}
+
+.contentExplication img {
+  width: 30%;
+  height: 220px;
+}
+
+.contentSituation {
+  background: var(--blue-700);
+  width: 90%;
+  height: 250px;
+  display: flex;
+  padding: 0 30px;
+
+  align-items: center;
+
+  gap: 10%;
+  border-radius: 10px;
+}
+
+.contentSituation p {
+  width: 70%;
+  font-size: 18px;
+}
+
+.contentSituation img {
+  width: 30%;
+  height: 220px;
+}
+
+
+
+
+footer {
+  width: 100%;
+  height: 5rem;
+  bottom: 0;
+  display: flex;
+  justify-content: end;
+  padding: 0 54px;
+  padding-top: 1rem;
+}
+
+.headerBox>img {
+  height: 5rem;
+}
+
+
+#btnLogin {
+  background: #016fb9;
+  color: white;
+  font-weight: 400;
+  border-radius: 10px;
+  width: 157px;
+  height: 44px;
+  border: none;
+}
+
+#btnLogin a {
+  text-decoration: none;
+  color: white;
+}
+
+#btnLogin:hover {
+  width: 167px;
+  height: 54px;
+  transition: .3s;
+}
+
+
+.btnLogar {
+  width: 80%;
+  height: 2.5rem;
+  border-radius: 10px;
+  border: 0;
+  outline: none;
+}
+
+.btnLogar:hover {
+  width: 85%;
+  height: 3rem;
+  transition: .3s;
+}
+
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 93.75%;
+  }
+
+  .rightLogin {
+    position: relative;
+    top: 65%;
+    left: 34%;
+  }
+
+  .leftLogin {
+    position: relative;
+    top: 150px;
+    right: 35px;
+  }
+}
+
+@media (max-width: 770px) {
+  html {
+    font-size: 87.5%;
+  }
+
+  .leftLogin {
+    position: relative;
+    height: 160px;
+    top: -30%;
+    left: -35%;
+  }
+
+  .rightLogin {
+    position: relative;
+    height: 160px;
+    top: 60%;
+    left: 35%;
+  }
+
+  .white-bot {
+    height: 160px;
+  }
+
+  .blue-bot {
+    height: 160px;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 77.5%;
+  }
+
+  .headerBox {
+    width: 90%;
+  }
+
+  .headerBox>h2 {
+    display: none;
+  }
+
+
+  .leftLogin {
+    position: relative;
+    height: 90px;
+    left: -93px;
+    top: 5px;
+  }
+
+  .rightLogin {
+    height: 90px;
+    position: relative;
+    top: 20px;
+    left: 100px;
+  }
+
+  .contentSituation {
+    background: var(--blue-700);
+    width: 90%;
+    height: 250px;
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+    gap: 8%;
+    border-radius: 10px;
+  }
+
+  .contentExplication {
+    background: var(--blue-700);
+    width: 90%;
+    height: 250px;
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+    gap: 8%;
+    border-radius: 10px;
+  }
+
+  .contentExplication p {
+    width: 71%;
+    font-size: 10px;
+  }
+
+  .contentExplication img {
+    width: 31%;
+    height: 150px;
+  }
+
+  .contentSituation p {
+    width: 71%;
+    font-size: 10px;
+  }
+
+  .contentSituation img {
+    width: 31%;
+    height: 150px;
+  }
+
+}
